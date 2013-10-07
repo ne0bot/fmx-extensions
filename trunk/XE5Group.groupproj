@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{73190B90-BC5D-40E3-A946-35DCD97DC3E2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Packages\FMX.Extensions.UX.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FMX_Extensions_UX">
+        <MSBuild Projects="Packages\FMX.Extensions.UX.dproj"/>
+    </Target>
+    <Target Name="FMX_Extensions_UX:Clean">
+        <MSBuild Projects="Packages\FMX.Extensions.UX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMX_Extensions_UX:Make">
+        <MSBuild Projects="Packages\FMX.Extensions.UX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FMX_Extensions_UX"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FMX_Extensions_UX:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FMX_Extensions_UX:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
