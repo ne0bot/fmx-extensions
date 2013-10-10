@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4ECECCFE-A479-4971-B217-B918A5FE6788}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RORestServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RestMobileClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RORestServer">
+        <MSBuild Projects="RORestServer.dproj"/>
+    </Target>
+    <Target Name="RORestServer:Clean">
+        <MSBuild Projects="RORestServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RORestServer:Make">
+        <MSBuild Projects="RORestServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RestMobileClient">
+        <MSBuild Projects="RestMobileClient.dproj"/>
+    </Target>
+    <Target Name="RestMobileClient:Clean">
+        <MSBuild Projects="RestMobileClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RestMobileClient:Make">
+        <MSBuild Projects="RestMobileClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RORestServer;RestMobileClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RORestServer:Clean;RestMobileClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RORestServer:Make;RestMobileClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
