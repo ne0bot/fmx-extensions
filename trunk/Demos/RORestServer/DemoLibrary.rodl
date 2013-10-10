@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Library Name="DemoLibrary" UID="{0028C398-C977-4BED-9D7D-F64B311D70FA}" Version="3.0">
+<Services>
+<Service Name="DemoService" UID="{9DC31289-2DC0-4C12-9F7E-CA7B10955723}">
+<Interfaces>
+<Interface Name="Default" UID="{F373F2C5-952F-44FF-BF91-B430B1FF4A7F}">
+<Documentation><![CDATA[Service NewService. This service has been automatically generated using the RODL template you can find in the Templates directory.]]></Documentation>
+<Operations>
+<Operation Name="GetSum" UID="{0A0219FE-6739-4DC3-BEB1-E0ED78A28152}">
+<Parameters>
+<Parameter Name="Result" DataType="Integer" Flag="Result">
+</Parameter>
+<Parameter Name="A" DataType="Integer" Flag="In" >
+</Parameter>
+<Parameter Name="B" DataType="Integer" Flag="In" >
+</Parameter>
+</Parameters>
+</Operation>
+<Operation Name="GetServerTime" UID="{665265CD-71CF-494D-8953-E7BEEBC37758}">
+<Parameters>
+<Parameter Name="Result" DataType="DateTime" Flag="Result">
+</Parameter>
+</Parameters>
+</Operation>
+<Operation Name="GetDemoStruct" UID="{68ED4773-D0AF-4885-9113-32EE21C3E797}">
+<Parameters>
+<Parameter Name="Result" DataType="DemoArray" Flag="Result">
+</Parameter>
+<Parameter Name="Count" DataType="Integer" Flag="In" >
+</Parameter>
+</Parameters>
+</Operation>
+</Operations>
+</Interface>
+</Interfaces>
+</Service>
+</Services>
+<Structs>
+<Struct Name="DemoStruct" UID="{B5EADCE6-BD7D-49A5-8444-22F2FCB87942}" AutoCreateParams="1">
+<Elements>
+<Element Name="Field1" DataType="WideString">
+</Element>
+<Element Name="Field2" DataType="Integer">
+</Element>
+<Element Name="Field3" DataType="Double">
+</Element>
+</Elements>
+</Struct>
+</Structs>
+<Enums>
+</Enums>
+<Arrays>
+<Array Name="DemoArray" UID="{FD860DBE-F18E-4C78-A680-B26B8E958B1E}">
+<ElementType DataType="DemoStruct" />
+</Array>
+</Arrays>
+</Library>

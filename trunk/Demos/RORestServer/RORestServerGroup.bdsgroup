@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{136D0BAA-67EA-467E-9621-61EE26C2AC35}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    <Projects>
+      <Projects Name="RORestServer.exe">RORestServer.bdsproj</Projects>
+      <Projects Name="RORestServerClient.exe">RORestServerClient.bdsproj</Projects>
+      <Projects Name="Targets">RORestServer.exe RORestServerClient.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>
