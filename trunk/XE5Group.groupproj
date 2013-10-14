@@ -6,6 +6,9 @@
         <Projects Include="Packages\FMX.Extensions.UX.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Packages\FMX.Extensions.API.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -23,14 +26,23 @@
     <Target Name="FMX_Extensions_UX:Make">
         <MSBuild Projects="Packages\FMX.Extensions.UX.dproj" Targets="Make"/>
     </Target>
+    <Target Name="FMX_Extensions_API">
+        <MSBuild Projects="Packages\FMX.Extensions.API.dproj"/>
+    </Target>
+    <Target Name="FMX_Extensions_API:Clean">
+        <MSBuild Projects="Packages\FMX.Extensions.API.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMX_Extensions_API:Make">
+        <MSBuild Projects="Packages\FMX.Extensions.API.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="FMX_Extensions_UX"/>
+        <CallTarget Targets="FMX_Extensions_UX;FMX_Extensions_API"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="FMX_Extensions_UX:Clean"/>
+        <CallTarget Targets="FMX_Extensions_UX:Clean;FMX_Extensions_API:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="FMX_Extensions_UX:Make"/>
+        <CallTarget Targets="FMX_Extensions_UX:Make;FMX_Extensions_API:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

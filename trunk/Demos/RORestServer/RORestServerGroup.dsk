@@ -1,45 +1,85 @@
 ﻿[Closed Files]
-File_0=TSourceModule,'F:\Projects\FMX Extensions\Source\Demos\RORestServer\NewLibrary_Intf.pas',0,1,1,72,20,0,0,,
-File_1=TSourceModule,'F:\Projects\FMX Extensions\Source\Demos\RORestServer\frmRORESTServerMainU.pas',0,1,1,1,1,0,0,,
-File_2=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROServer.pas',0,1,1,15,1,0,0,,
-File_3=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\11.0\source\rtl\common\System.Classes.pas',0,1,1955,15,1955,0,0,,
-File_4=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROClient.pas',0,1,172,3,196,0,0,,
-File_5=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROJSONMessage.pas',0,1,60,31,84,0,0,,
-File_6=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROXMLSerializer.pas',0,1,1,22,1,0,0,,
-File_7=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROSOAPMessage.pas',0,1,94,43,118,0,0,,
-File_8=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Server\fServerDataModule.pas',0,1,1116,23,1152,0,0,,
-File_9=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Station.Controllers.SmartBike.System.pas',0,1,295,1,314,0,0,,
-File_10=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Station.Serialiser.Connection.pas',0,1,178,13,187,0,0,,
-File_11=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Station.Serialiser.Connection.Simulator.pas',0,1,493,25,501,0,0,,
-File_12=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Common.Interfaces.pas',0,1,332,14,364,0,0,,
-File_13=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Station.pas',0,1,2331,1,2350,0,0,,
-File_14=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Station.Plugin.pas',0,1,1,3,14,0,0,,
+File_0=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\11.0\SOURCE\RTL\SYS\System.SysUtils.pas',0,1,5306,1,5325,0,0,,
+File_1=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROBaseHTTPServer.pas',0,1,220,1,237,0,0,,
+File_2=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROServer.pas',0,1,443,1,555,0,0,,
+File_3=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROClient.pas',0,1,1080,1,1111,0,0,,
+File_4=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROJSONMessage.pas',0,1,966,37,983,0,0,,
+File_5=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROJSONParser.pas',0,1,514,1,566,0,0,,
+File_6=TSourceModule,'F:\Projects\FMX Extensions\Source\Demos\RORestServer\fClientForm.pas',0,1,1,1,14,0,0,,
+File_7=TSourceModule,'F:\Projects\FMX Extensions\Source\Demos\RORestServer\NewLibrary_Intf.pas',0,1,1,72,20,0,0,,
+File_8=TSourceModule,'F:\Projects\FMX Extensions\Source\Demos\RORestServer\frmRORESTServerMainU.pas',0,1,1,1,1,0,0,,
+File_9=TSourceModule,'c:\program files (x86)\embarcadero\rad studio\11.0\source\rtl\common\System.Classes.pas',0,1,1955,15,1955,0,0,,
+File_10=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROXMLSerializer.pas',0,1,1,22,1,0,0,,
+File_11=TSourceModule,'C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROSOAPMessage.pas',0,1,94,43,118,0,0,,
+File_12=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Server\fServerDataModule.pas',0,1,1116,23,1152,0,0,,
+File_13=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Station.Controllers.SmartBike.System.pas',0,1,295,1,314,0,0,,
+File_14=TSourceModule,'F:\Projects\ShareBike\Source\Delphi\Apps\Common\Lib\ShareBike.Station.Serialiser.Connection.pas',0,1,178,13,187,0,0,,
 
 [Modules]
-Module0=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fClientForm.pas
-Module1=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoService_Impl.pas
-Module2=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fServerDataModule.pas
-Module3=F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RORestServer.pas
-Module4=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoLibrary_Intf.pas
-Count=5
+Module0=F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RestServer.pas
+Module1=F:\Projects\ShareBike\Source\Delphi\Apps\WebServices\Apps WebService\fWebServiceDataModule.pas
+Module2=F:\Projects\FMX Extensions\Source\Lib\UX\FMX.Extensions.UX.TabControl.pas
+Module3=F:\Projects\FMX Extensions\Source\Demos\RORestServer\frmRestClientU.pas
+Module4=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fServerDataModule.pas
+Module5=F:\Projects\FMX Extensions\Source\Demos\RORestServer\RORestServer.dproj
+Module6=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\frameRetrieveDataU.pas
+Module7=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.RestThread.pas
+Module8=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoService_Impl.pas
+Module9=C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROIndyHTTPServer.pas
+Module10=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.Types.pas
+Module11=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoLibrary_Intf.pas
+Count=12
 EditWindowCount=1
 
-[F:\Projects\FMX Extensions\Source\Demos\RORestServer\fClientForm.pas]
+[F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RestServer.pas]
 ModuleType=TSourceModule
-FormState=1
+FormState=0
 FormOnTop=0
 
-[F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoService_Impl.pas]
+[F:\Projects\ShareBike\Source\Delphi\Apps\WebServices\Apps WebService\fWebServiceDataModule.pas]
 ModuleType=TSourceModule
 FormState=1
 FormOnTop=1
+
+[F:\Projects\FMX Extensions\Source\Lib\UX\FMX.Extensions.UX.TabControl.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[F:\Projects\FMX Extensions\Source\Demos\RORestServer\frmRestClientU.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
 
 [F:\Projects\FMX Extensions\Source\Demos\RORestServer\fServerDataModule.pas]
 ModuleType=TSourceModule
 FormState=1
 FormOnTop=0
 
-[F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RORestServer.pas]
+[F:\Projects\FMX Extensions\Source\Demos\RORestServer\RORestServer.dproj]
+ModuleType=TBaseProject
+
+[F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\frameRetrieveDataU.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
+
+[F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.RestThread.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoService_Impl.pas]
+ModuleType=TSourceModule
+FormState=1
+FormOnTop=0
+
+[C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROIndyHTTPServer.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
+
+[F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.Types.pas]
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
@@ -54,13 +94,20 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=5
-CurrentEditView=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fClientForm.pas
+ViewCount=12
+CurrentEditView=F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RestServer.pas
 View0=0
 View1=1
 View2=2
 View3=3
 View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+View11=11
 PercentageSizes=1
 Create=1
 Visible=1
@@ -84,37 +131,114 @@ RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=DockSite1
 BottomPanelData=0000080001000100000009000000446F636B5369746531724500000000000000EF05000000000000FFFFFFFF
-BottomMiddlePanelSize=1574
+BottomMiddlePanelSize=0
 BottomMiddlePanelClients=DockSite0,GraphDrawingModel
-BottomMiddelPanelData=0000080001020100000010000000477261706844726177696E6756696577503500000000000002260600000000000001000000005035000009000000446F636B5369746530FFFFFFFF
+BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E67566965775035000000000000022606000000000000FFFFFFFF
 TabDockBottomClients=MessageView=0
 TabDockRightClients=DockSite4=0,fmGrepResults=1,fmMacroLibrary=2
 
 [View0]
 CustomEditViewType=TEditView
-Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fClientForm.pas
-CursorX=1
-CursorY=14
-TopLine=1
+Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\frmRestClientU.pas
+CursorX=3
+CursorY=5
+TopLine=175
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fClientForm.pas
+EditViewName=F:\Projects\FMX Extensions\Source\Demos\RORestServer\frmRestClientU.pas
 
 [View1]
 CustomEditViewType=TEditView
-Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoLibrary_Intf.pas
+Module=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.RestThread.pas
+CursorX=1
+CursorY=63
+TopLine=51
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.RestThread.pas
+
+[View2]
+CustomEditViewType=TEditView
+Module=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\frameRetrieveDataU.pas
+CursorX=22
+CursorY=9
+TopLine=178
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\frameRetrieveDataU.pas
+
+[View3]
+CustomEditViewType=TEditView
+Module=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.Types.pas
 CursorX=1
 CursorY=1
 TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
+EditViewName=F:\Projects\ShareBike\Source\Delphi\Apps\Mobile\ShareBike.Mobile.Types.pas
+
+[View4]
+CustomEditViewType=TEditView
+Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\RORestServer.dpr
+CursorX=79
+CursorY=14
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=F:\Projects\FMX Extensions\Source\Demos\RORestServer\RORestServer.dpr
+
+[View5]
+CustomEditViewType=TEditView
+Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoLibrary_Intf.pas
+CursorX=5
+CursorY=104
+TopLine=76
+LeftCol=1
+Elisions=
+Bookmarks=
 EditViewName=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoLibrary_Intf.pas
 
-[View2]
+[View6]
 CustomEditViewType=TEditView
 Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoService_Impl.pas
+CursorX=26
+CursorY=51
+TopLine=46
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoService_Impl.pas
+
+[View7]
+CustomEditViewType=TEditView
+Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fServerDataModule.pas
+CursorX=14
+CursorY=12
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fServerDataModule.pas
+
+[View8]
+CustomEditViewType=TEditView
+Module=F:\Projects\FMX Extensions\Source\Lib\UX\FMX.Extensions.UX.TabControl.pas
+CursorX=68
+CursorY=22
+TopLine=1
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=F:\Projects\FMX Extensions\Source\Lib\UX\FMX.Extensions.UX.TabControl.pas
+
+[View9]
+CustomEditViewType=TEditView
+Module=F:\Projects\ShareBike\Source\Delphi\Apps\WebServices\Apps WebService\fWebServiceDataModule.pas
 CursorX=1
 CursorY=1
 TopLine=1
@@ -123,30 +247,31 @@ Elisions=
 Bookmarks=
 EditViewName=Borland.FormDesignerView
 
-[View3]
+[View10]
 CustomEditViewType=TEditView
-Module=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fServerDataModule.pas
-CursorX=16
-CursorY=38
+Module=F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RestServer.pas
+CursorX=73
+CursorY=22
 TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=F:\Projects\FMX Extensions\Source\Demos\RORestServer\fServerDataModule.pas
+EditViewName=F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RestServer.pas
 
-[View4]
+[View11]
 CustomEditViewType=TEditView
-Module=F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RORestServer.pas
-CursorX=30
-CursorY=82
-TopLine=1
+Module=C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROIndyHTTPServer.pas
+CursorX=1
+CursorY=251
+TopLine=236
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=F:\Projects\FMX Extensions\Source\Lib\Other\RemObjects.RORestServer.pas
+EditViewName=C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROIndyHTTPServer.pas
 
 [Watches]
-Count=0
+Count=1
+Watch0='E.message',256,0,18,1,1,'Watches',1
 
 [WatchWindow]
 WatchColumnWidth=120
@@ -170,7 +295,9 @@ Dockable=1
 StayOnTop=0
 
 [Breakpoints]
-Count=0
+Count=2
+Breakpoint0='F:\Projects\FMX Extensions\Source\Demos\RORestServer\DemoService_Impl.pas',53,'',0,1,'',1,0,0,'',1,'','','',0,''
+Breakpoint1='C:\Program Files (x86)\RemObjects Software\RemObjects SDK for Delphi\Source\uROIndyHTTPServer.pas',251,'',0,1,'',1,0,0,'',1,'','','',0,''
 
 [EmbarcaderoWin32Debugger_AddressBreakpoints]
 Count=0
@@ -283,8 +410,8 @@ SplitPos=128
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Action,
-ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0,Font=0,GlassFrame=0,"LiveBindings Designer=0"
+SelectedItem=Name,IndyServer
+ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0,Font=0,GlassFrame=0,"LiveBindings Designer=0",Border=0,Fill=0,FormFactor=0,Padding=0,Touch=0,LiveBindings=0,Margins=1,Position=0,RotationCenter=0,Scale=0,StyledSettings=0,UnsupportedArchitectures=0,UnsupportedPlatforms=0,Caret=0,TouchTargetExpansion=0,Action=0,SerializationOptions=0,Encryption=0,IndyServer=0,CustomIcon=0,ActiveTab=0,EditModeOptions=0,ItemAppearance=0,ItemAppearanceObjects=1,ItemSpaces=0,ItemAppearanceObjects.FooterObjects=0,ItemAppearanceObjects.HeaderObjects=0,ItemAppearanceObjects.ItemEditObjects=0,ItemAppearanceObjects.ItemObjects=1,ItemAppearanceObjects.ItemObjects.Accessory=1,ItemAppearanceObjects.ItemObjects.Text=0,ItemAppearanceObjects.ItemObjects.Accessory.PlaceOffset=0
 
 [TFileExplorerForm]
 PercentageSizes=1
@@ -292,8 +419,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-210
-Top=-101
+Left=-1418
+Top=-64
 Width=2844
 Height=6202
 MaxLeft=-1
@@ -312,7 +439,7 @@ Visible=0
 Docked=1
 State=0
 Left=-8
-Top=-26
+Top=343
 Width=276
 Height=356
 MaxLeft=-1
@@ -416,11 +543,11 @@ State=0
 Left=0
 Top=0
 Width=2339
-Height=1240
+Height=1000
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2339
-ClientHeight=1240
+ClientHeight=1000
 TBDockHeight=2317
 LRDockWidth=2823
 Dockable=1
@@ -434,11 +561,11 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=7677
+Width=2339
 Height=1173
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=7677
+ClientWidth=2339
 ClientHeight=1173
 TBDockHeight=3202
 LRDockWidth=2823
@@ -454,11 +581,11 @@ State=0
 Left=0
 Top=0
 Width=2339
-Height=1240
+Height=1173
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2339
-ClientHeight=1240
+ClientHeight=1173
 TBDockHeight=1154
 LRDockWidth=3677
 Dockable=1
@@ -480,12 +607,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=1094
-Height=8788
+Width=2000
+Height=6904
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1094
-ClientHeight=8788
+ClientWidth=2000
+ClientHeight=6904
 TBDockHeight=4885
 LRDockWidth=7151
 Dockable=1
@@ -499,12 +626,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=1094
-Height=8788
+Width=2000
+Height=6904
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=1094
-ClientHeight=8788
+ClientWidth=2000
+ClientHeight=6904
 TBDockHeight=4885
 LRDockWidth=5307
 Dockable=1
@@ -516,8 +643,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=0
-Top=-101
+Left=-181
+Top=-99
 Width=1844
 Height=3144
 MaxLeft=-1
@@ -538,11 +665,11 @@ State=0
 Left=0
 Top=0
 Width=2339
-Height=1240
+Height=1173
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2339
-ClientHeight=1240
+ClientHeight=1173
 TBDockHeight=4827
 LRDockWidth=3562
 Dockable=1
@@ -557,11 +684,11 @@ State=0
 Left=0
 Top=0
 Width=2339
-Height=1240
+Height=1173
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2339
-ClientHeight=1240
+ClientHeight=1173
 TBDockHeight=4827
 LRDockWidth=3562
 Dockable=1
@@ -573,8 +700,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=0
-Top=0
+Left=367
+Top=830
 Width=2859
 Height=3212
 MaxLeft=-1
@@ -621,11 +748,11 @@ State=0
 Left=0
 Top=0
 Width=2188
-Height=8788
+Height=6788
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2188
-ClientHeight=8788
+ClientHeight=6788
 TBDockHeight=3673
 LRDockWidth=1896
 Dockable=1
@@ -637,8 +764,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=4
-Top=24
+Left=1339
+Top=100
 Width=2896
 Height=5606
 MaxLeft=-1
@@ -696,16 +823,16 @@ HostDockSite=DockBottomCenterPanel
 DockSiteType=1
 PercentageSizes=1
 Create=1
-Visible=1
+Visible=0
 Docked=1
 State=0
 Left=0
 Top=23
-Width=7677
+Width=2339
 Height=1413
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=7677
+ClientWidth=2339
 ClientHeight=1413
 TBDockHeight=1413
 LRDockWidth=2339
@@ -724,7 +851,7 @@ Visible=0
 Docked=1
 State=0
 Left=0
-Top=0
+Top=23
 Width=3823
 Height=1423
 MaxLeft=-1

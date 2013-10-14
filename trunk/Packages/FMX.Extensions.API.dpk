@@ -1,4 +1,4 @@
-package FMX.UX;
+package FMX.Extensions.API;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
@@ -25,9 +25,16 @@ package FMX.UX;
 {$IMAGEBASE $400000}
 {$DEFINE DEBUG}
 {$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'FMX Extensions Lib'}
+{$LIBSUFFIX '12'}
 {$IMPLICITBUILD ON}
 
 requires
-  rtl;
+  rtl,
+  fmx;
+
+contains
+  FMX.AndroidLike.Toast in '..\Lib\API\FMX.AndroidLike.Toast.pas',
+  Android.JNI.Toast in '..\Lib\API\Android.JNI.Toast.pas';
 
 end.
